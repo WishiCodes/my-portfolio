@@ -1,6 +1,7 @@
 :root {
   --second-color: #e2b9ba;
   /* #FBECDC */
+  /* --border-radius: 0.375rem; */
 }
 body {
   background: #e0e0db;
