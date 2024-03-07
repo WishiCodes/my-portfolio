@@ -7,88 +7,142 @@
     <title>Front-end Developer | Arezou Maleki</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kalnia:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav>
-
-        <img src="" alt="Arezou Maleki Logo">
-
-        <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/about.html">ABOUT</a></li>
-            <li><a href="/contact.html">CONTACT</a></li>
-        </ul>
+    <nav class="my-header container d-flex justify-content-between ">
+        <div>
+            <img src="/images/My Logo.png" alt="Arezou Maleki Logo" class="my-logo">
+        </div>
+        <div>
+            <ul class="d-flex">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
     </nav>
-    <div>
-        <h3>Journey into the World of Web Wonders with</h3>
-        <h1>AREZOU MALEKI</h1>
-        <h2>, Front-end Developer</h2>
-        <p>Embark on a journey of digital transformation led by me, a frontend developer with a knack for turning ideas
-            into interactive realities. With a toolbox filled with HTML, CSS, and JavaScript, I breathe life into
-            designs, creating
-            intuitive and engaging user interfaces that leave a lasting impression.</p>
-        <a href="#">Have a Look at My Works!</a>
+    <div class="container mt-5 mb-5 my-hero-section">
+        <div class="row">
+            <div class="col-6">
+                <h4 class="mb-4">Journey into the World of Web Wonders with</h4>
+                <h1 class="my-name mb-4">Arezou Maleki</h1>
+                <h2 class="my-description mb-5">Front-end Developer, based in Iran</h2>
+                <p class="my-description-paragraph">Embark on a journey of digital transformation led by me, a frontend
+                    developer with a knack for turning ideas
+                    into interactive realities. With a toolbox filled with HTML, CSS, and JavaScript, I breathe life
+                    into
+                    designs, creating
+                    intuitive and engaging user interfaces that leave a lasting impression.</p>
+                <a class="hero-button d-inline-block mt-2" href="#">Have a Look at My Works!</a>
+            </div>
+            <div class="col-6">
+                <img class="my-photo" src="" alt="Arezou photo">
+            </div>
+        </div>
     </div>
-    <div>
-        <h2>TECHNOLOGIES I AM WORKING WITH</h2>
+    <div class="skills-section">
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div><img src="" alt="html logo"></div>
-                    <h3>html</h3>
-                </div>
-                <div class="col">
-                    <div><img src="" alt="html logo"></div>
-                    <h3>html</h3>
-                </div>
-                <div class="col">
-                    <div><img src="" alt="html logo"></div>
-                    <h3>html</h3>
-                </div>
-                <div class="col">
-                    <div><img src="" alt="html logo"></div>
-                    <h3>html</h3>
-                </div>
-                <div class="col">
-                    <div><img src="" alt="html logo"></div>
-                    <h3>html</h3>
+            <h2 class="text-center my-skills-title">My Skills</h2>
+            <div>
+                <div class="row mt-5">
+                    <div class="col skills-col">
+                        <div><img src="" alt="html logo"></div>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="col skills-col">
+                        <div><img src="" alt="html logo"></div>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="col skills-col">
+                        <div><img src="" alt="html logo"></div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="col skills-col">
+                        <div><img src="" alt="html logo"></div>
+                        <h3>React</h3>
+                    </div>
+                    <div class="col skills-col">
+                        <div><img src="" alt="html logo"></div>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="col skills-col">
+                        <div><img src="" alt="html logo"></div>
+                        <h3>API</h3>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <div>
-        <div class="row">
+    <div class="container mt-5">
+        <h2 class="text-center my-works-title">My Works</h2>
+        <div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>WEATHER APP</h3>
+                    <p>My weather application is a user-friendly tool crafted with HTML, CSS, and vanilla JavaScript,
+                        providing current weather
+                        updates and five-day forecasts through seamless integration with weather APIs. Offering
+                        essential details like
+                        temperature, humidity percentage, and wind speed, alongside the current date and time, the
+                        application delivers accurate
+                        and timely weather information in a sleek and intuitive interface. Whether planning for the day
+                        or the week ahead, users
+                        can rely on this minimalist-designed application to stay informed and make informed decisions
+                        based on the forecast.</p>
+                    <a class="hero-button d-inline-block mt-2" href="#">Take a Look!</a>
+                </div>
+                <div class="col-6"><img src="" alt="WEATHER APP"></div>
+            </div>
+        </div>
+
+        <div>
+            <div class="row mt-5">
+                <div class="col-6"><img src="" alt="AVOCADO LP"></div>
+                <div class="col-6">
+                    <h3>AVOCADO LANDING PAGE</h3>
+                    <p>Crafted with HTML, CSS, and a touch of JavaScript, this page invites visitors to an upcoming
+                        Avocado festival with a
+                        promise of a free ticket. The design is simple yet engaging, capturing attention with its
+                        vibrant visuals and clear
+                        call-to-action. As a beginner's project, this landing page marks my entry into the world of web
+                        development, showcasing
+                        my foundational skills and passion for creating user-centric experiences.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
             <div class="col-6">
                 <h3>WEATHER APP</h3>
+                <p>This HTML and CSS Login page is a stylish touch to my initial encounter with HTML forms. Despite the
+                    challenges, I infused modern design into this essential element of web development, showcasing both
+                    my creativity and
+                    dedication to mastering front-end skills.</p>
             </div>
-            <div class="col-6"><img src="" alt="WEATHER APP"></div>
+            <div class="col-6"><img src="" alt="LOGIN PAGE"></div>
         </div>
     </div>
-
-    <div>
-        <div class="row">
-            <div class="col-6"><img src="" alt="AVOCADO LP"></div>
-            <div class="col-6">
-                <h3>AVOCADO LANDING PAGE</h3>
-            </div>
-        </div>
-    </div>
-
 
     <footer>
-        <div>
-        <div>
-            <h3>Work Inquiries</h3>
-            <p>Feel Free to Contact me ... </p>
-        </div>
-        <div>
-            <a href="#">Conatct Me</a>
-        </div>
+        <div class="container">
+            <div>
+                <h3 class="text-center work-inquiries-title">Work Inquiries</h3>
+                <p>Feel Free to Reach Out ... </p>
+            </div>
+            <div>
+                <a href="#">Conatct Me</a>
+            </div>
         </div>
     </footer>
 </body>
